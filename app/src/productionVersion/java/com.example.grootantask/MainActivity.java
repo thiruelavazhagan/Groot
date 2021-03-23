@@ -649,22 +649,29 @@ public class MainActivity extends AppCompatActivity {
 
         if ((b1 == b2) && (b2 == b3) && (b3 == b4)){
             row++;
+            Log.e("tes",row+"@"+col);
         }
         if((b5 == b6) && (b6 == b7) && (b7 == b8)){
             row++;
+            Log.e("tes",row+"@"+col);
         }
         if((b9 == b10) && (b10 == b11) && (b11 == b12)){
             row++;
+            Log.e("tes",row+"@"+col);
         }
         if((b1 == b5) && (b5 == b9) && (b9 == b13)){
             col++;
+            Log.e("tes",row+"@"+col);
         }
         if((b2 == b6) && (b6 == b10) && (b10 == b14)){
             col++;
+            Log.e("tes",row+"@"+col);
         }
-        if((b2 == b6) && (b6 == b10) && (b10 == b14)){
+        if((b3 == b7) && (b7 == b11) && (b11 == b15)){
             col++;
+            Log.e("tes",row+"@"+col);
         }
+        Log.e("tes",row+"@"+col);
 
         return row+"@"+col;
     }
